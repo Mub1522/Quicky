@@ -1,0 +1,46 @@
+# Dependencias de Node.js
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos de compilación y salida
+dist/
+out/
+build/
+temp/
+
+# Electron y caché de npm
+electron-packager/
+electron-builder/
+.cache/
+.npm/
+
+# Archivos del sistema y logs
+.DS_Store
+Thumbs.db
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Archivos de configuración específicos del editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Archivos de entorno y configuración sensible
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Archivos de empaquetado de Electron
+/*.asar
+
+/index.html
